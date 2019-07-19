@@ -1,4 +1,22 @@
+//Example of nested SASS (this comment should not be compiled and included in the css file)
+/* Nav Bar */
 
+nav
+  ul
+    margin: 0
+    padding: 0
+    list-style: none
+
+  li
+    display: inline-block
+
+  a
+    display: inline-block
+    padding: 6px 12px
+    text-decoration: none
+
+//Example of using variables in SASS
+/* Colours and Text size, decoration */
 
 $font-stack:    Helvetica, sans-serif
 $primary-color: #bf4aa8
@@ -6,3 +24,4 @@ $primary-color: #bf4aa8
 body
   font: 100% $font-stack
   color: $primary-color
+

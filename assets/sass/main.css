@@ -1,3 +1,21 @@
+/* Nav Bar */
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  display: inline-block;
+  padding: 6px 12px;
+  text-decoration: none;
+}
+
+/* Colours and Text size, decoration */
 body {
   font: 100% Helvetica, sans-serif;
   color: #bf4aa8;
