@@ -28,6 +28,10 @@ body {
 }
 
 /* Add vendor prefixes to tranform */
+.boxes {
+  position: absolute;
+}
+
 .box {
   -webkit-transform: rotate(45deg);
   transform: rotate(45deg);
@@ -38,6 +42,6 @@ body {
   -webkit-transform: rotate(45deg);
   transform: rotate(45deg);
   position: relative;
-  right: 50px;
+  left: 175px;
 }
 /*# sourceMappingURL=main.css.map */
