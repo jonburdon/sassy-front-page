@@ -11,6 +11,9 @@ body
   font: 100% $font-stack
   color: $primary-color
 
+// Use Extend to share properties
+%box-style
+  border: solid 1px #000
 
 //Example of using mixins to add vendor prefixes
 /* Add vendor prefixes to tranform */
@@ -23,4 +26,5 @@ body
   +transform(rotate(45deg))
   width: 250px
   height: 250px
-  border: solid 1px #000
+  @extend %box-style
+  

@@ -21,12 +21,15 @@ body {
   color: #bf4aa8;
 }
 
+.box {
+  border: solid 1px #000;
+}
+
 /* Add vendor prefixes to tranform */
 .box {
   -webkit-transform: rotate(45deg);
   transform: rotate(45deg);
   width: 250px;
   height: 250px;
-  border: solid 1px #000;
 }
 /*# sourceMappingURL=main.css.map */
