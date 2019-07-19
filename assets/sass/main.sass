@@ -14,6 +14,8 @@ body
 // Use Extend to share properties
 %box-style
   border: solid 1px #000
+  width: 250px
+  height: 250px
 
 //Example of using mixins to add vendor prefixes
 /* Add vendor prefixes to tranform */
@@ -24,7 +26,11 @@ body
 
 .box
   +transform(rotate(45deg))
-  width: 250px
-  height: 250px
   @extend %box-style
-  
+  position: absolute
+
+.box2
+  +transform(rotate(45deg))
+  @extend %box-style
+  position: relative
+  right: 50px
