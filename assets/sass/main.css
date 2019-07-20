@@ -36,7 +36,7 @@ body {
   -webkit-transform: rotate(45deg);
   transform: rotate(45deg);
   position: absolute;
-  background-color: #963846;
+  background-color: rgba(150, 56, 70, 0.3);
 }
 
 .box2 {
@@ -44,5 +44,6 @@ body {
   transform: rotate(45deg);
   position: relative;
   left: 175px;
+  background-color: rgba(150, 56, 70, 0.2);
 }
 /*# sourceMappingURL=main.css.map */

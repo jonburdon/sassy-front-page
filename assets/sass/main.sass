@@ -6,7 +6,7 @@
 
 $font-stack:    Helvetica, sans-serif
 $primary-color: #963846
-$bg-color: #963846
+$bg-color: rgba(150, 56, 70, 0.3)
 
 body
   font: 100% $font-stack
@@ -41,6 +41,9 @@ body
   @extend %box-style
   position: relative
   left: 250 /100 * 70px
-  
+  background-color: change-color($bg-color,
+  $red: null, $green: null, $blue: null,
+  $hue: null, $saturation: null, $lightness: null,
+  $alpha: 0.2)
 
   
