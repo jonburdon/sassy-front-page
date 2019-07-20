@@ -18,7 +18,7 @@ nav a {
 /* Colours and Text size, decoration */
 body {
   font: 100% Helvetica, sans-serif;
-  color: #bf4aa8;
+  color: #963846;
 }
 
 .box, .box2 {
@@ -36,6 +36,7 @@ body {
   -webkit-transform: rotate(45deg);
   transform: rotate(45deg);
   position: absolute;
+  background-color: #963846;
 }
 
 .box2 {

@@ -5,7 +5,8 @@
 /* Colours and Text size, decoration */
 
 $font-stack:    Helvetica, sans-serif
-$primary-color: #bf4aa8
+$primary-color: #963846
+$bg-color: #963846
 
 body
   font: 100% $font-stack
@@ -32,11 +33,14 @@ body
   +transform(rotate(45deg))
   @extend %box-style
   position: absolute
+  background-color: $bg-color
 
+// Use operators to change positioning for box 2
 .box2
   +transform(rotate(45deg))
   @extend %box-style
   position: relative
   left: 250 /100 * 70px
+  
 
   
