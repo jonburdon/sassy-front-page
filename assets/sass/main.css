@@ -28,6 +28,7 @@ body, a {
 
 nav {
   background-color: rgba(150, 56, 70, 0.2);
+  text-align: center;
 }
 
 .box, .box2 {
