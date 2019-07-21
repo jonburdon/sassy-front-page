@@ -12,9 +12,9 @@
 * Git
 
 ### Future Plans
-[ ] Make fully responsive
-[ ] Use more operators to explore this feature of SASS
-[ ] Use SASS Colour Functions to control a colour scheme with a wider range of colours in the palette
+1. [ ] Make fully responsive
+2. [ ] Use more operators to explore this feature of SASS
+3. [ ] Use SASS Colour Functions to control a colour scheme with a wider range of colours in the palette
 
 #### Credits
 
