@@ -76,7 +76,7 @@ nav {
   -webkit-transform: rotate(45deg);
   transform: rotate(45deg);
   position: absolute;
-  top: 18%;
+  top: 15%;
   left: 22%;
   background-color: rgba(150, 56, 70, 0.2);
   z-index: 2;
