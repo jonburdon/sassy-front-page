@@ -47,4 +47,32 @@ body {
   left: 125px;
   background-color: rgba(150, 56, 70, 0.2);
 }
+
+/* Bg image controls */
+.bg-image {
+  position: relative;
+}
+
+.bg-image img {
+  display: block;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.bg-image h1 {
+  position: absolute;
+  top: 30%;
+  left: 15%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.bg-image p {
+  position: absolute;
+  top: 40%;
+  left: 15%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
 /*# sourceMappingURL=main.css.map */
