@@ -14,9 +14,10 @@ body
 
 // Use Extend to share properties
 %box-style
-  border: solid 1px #000
+  border: none
   width: 250px
   height: 250px
+  border-radius: 50%
   
 
 //Example of using mixins to add vendor prefixes
@@ -40,7 +41,7 @@ body
   +transform(rotate(45deg))
   @extend %box-style
   position: relative
-  left: 250 /100 * 70px
+  left: 250 /100 * 50px
   background-color: change-color($bg-color,
   $red: null, $green: null, $blue: null,
   $hue: null, $saturation: null, $lightness: null,

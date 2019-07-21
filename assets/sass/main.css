@@ -22,9 +22,10 @@ body {
 }
 
 .box, .box2 {
-  border: solid 1px #000;
+  border: none;
   width: 250px;
   height: 250px;
+  border-radius: 50%;
 }
 
 /* Add vendor prefixes to tranform */
@@ -43,7 +44,7 @@ body {
   -webkit-transform: rotate(45deg);
   transform: rotate(45deg);
   position: relative;
-  left: 175px;
+  left: 125px;
   background-color: rgba(150, 56, 70, 0.2);
 }
 /*# sourceMappingURL=main.css.map */
