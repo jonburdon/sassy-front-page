@@ -16,38 +16,28 @@ nav a {
 }
 
 /* Colours and Text size, decoration */
-body {
+h1 {
+  font-size: 60pt;
+  z-index: 3;
+}
+
+body, a {
   font: 100% Helvetica, sans-serif;
-  color: #963846;
+  color: #FFFFFF;
+}
+
+nav {
+  background-color: rgba(150, 56, 70, 0.2);
 }
 
 .box, .box2 {
   border: none;
   width: 250px;
   height: 250px;
-  border-radius: 50%;
+  border-radius: 30%;
 }
 
 /* Add vendor prefixes to tranform */
-.boxes {
-  position: absolute;
-}
-
-.box {
-  -webkit-transform: rotate(45deg);
-  transform: rotate(45deg);
-  position: absolute;
-  background-color: rgba(150, 56, 70, 0.3);
-}
-
-.box2 {
-  -webkit-transform: rotate(45deg);
-  transform: rotate(45deg);
-  position: relative;
-  left: 125px;
-  background-color: rgba(150, 56, 70, 0.2);
-}
-
 /* Bg image controls */
 .bg-image {
   position: relative;
@@ -68,11 +58,26 @@ body {
           transform: translateY(-50%);
 }
 
-.bg-image p {
+.boxes {
   position: absolute;
-  top: 40%;
-  left: 15%;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+}
+
+.box {
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  position: absolute;
+  background-color: rgba(150, 56, 70, 0.3);
+  top: 15%;
+  left: 10%;
+}
+
+.box2 {
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  position: absolute;
+  top: 18%;
+  left: 22%;
+  background-color: rgba(150, 56, 70, 0.2);
+  z-index: 2;
 }
 /*# sourceMappingURL=main.css.map */

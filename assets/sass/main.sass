@@ -5,19 +5,29 @@
 /* Colours and Text size, decoration */
 
 $font-stack:    Helvetica, sans-serif
-$primary-color: #963846
+$text-color: #FFFFFF
 $bg-color: rgba(150, 56, 70, 0.3)
 
-body
+h1
+  font-size: 60pt
+  z-index: 3
+
+body, a
   font: 100% $font-stack
-  color: $primary-color
+  color: $text-color
+
+nav
+  background-color: change-color($bg-color,
+  $red: null, $green: null, $blue: null,
+  $hue: null, $saturation: null, $lightness: null,
+  $alpha: 0.2)
 
 // Use Extend to share properties
 %box-style
   border: none
   width: 250px
   height: 250px
-  border-radius: 50%
+  border-radius: 30%
   
 
 //Example of using mixins to add vendor prefixes
@@ -27,26 +37,8 @@ body
   -webkit-transform: $property
   transform: $property
 
-.boxes
-  position: absolute
 
-.box
-  +transform(rotate(45deg))
-  @extend %box-style
-  position: absolute
-  background-color: $bg-color
-
-// Use operators to change positioning for box 2
-.box2
-  +transform(rotate(45deg))
-  @extend %box-style
-  position: relative
-  left: 250 /100 * 50px
-  background-color: change-color($bg-color,
-  $red: null, $green: null, $blue: null,
-  $hue: null, $saturation: null, $lightness: null,
-  $alpha: 0.2)
-
+  
 
 /* Bg image controls */
 .bg-image
@@ -64,9 +56,26 @@ body
   left: 15%
   transform: translateY(-50%)
 
-
-.bg-image p
+.boxes
   position: absolute
-  top: 40%
-  left: 15%
-  transform: translateY(-50%)
+
+.box
+  +transform(rotate(45deg))
+  @extend %box-style
+  position: absolute
+  background-color: $bg-color
+  top: 15%
+  left: 10%
+
+
+.box2
+  +transform(rotate(45deg))
+  @extend %box-style
+  position: absolute
+  top: 18%
+  left: 22%
+  background-color: change-color($bg-color,
+  $red: null, $green: null, $blue: null,
+  $hue: null, $saturation: null, $lightness: null,
+  $alpha: 0.2)
+  z-index: 2
