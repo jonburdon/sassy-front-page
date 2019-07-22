@@ -17,10 +17,8 @@ body, a
   color: $text-color
 
 nav
-  background-color: change-color($bg-color,
-  $red: null, $green: null, $blue: null,
-  $hue: null, $saturation: null, $lightness: null,
-  $alpha: 0.2)
+// Use lighten function to set bg-color for Navbar
+  background-color: lighten($bg-color, 10%)
   text-align: center
 
 // Use Extend to share properties
@@ -75,6 +73,7 @@ nav
   position: absolute
   top: 15%
   left: 22%
+// Use background-color function to control colors for box2. Allows for future colour scheme to be added.
   background-color: change-color($bg-color,
   $red: null, $green: null, $blue: null,
   $hue: null, $saturation: null, $lightness: null,
